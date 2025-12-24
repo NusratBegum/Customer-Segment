@@ -43,7 +43,7 @@ This project demonstrates a complete data science workflow using real-world e-co
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/NusratBegum/Customer-Segment.git
+   git clone https://github.com/[your-username]/Customer-Segment.git
    cd Customer-Segment
    ```
 
@@ -201,7 +201,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source. Please check with the repository owner for specific licensing terms.
 
 ## 📧 Contact
 
