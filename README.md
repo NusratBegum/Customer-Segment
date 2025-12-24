@@ -22,14 +22,14 @@ This project demonstrates a complete data science workflow using real-world e-co
 - **Period**: December 2010 - December 2011
 - **Records**: 541,909 transactions
 - **Features**: 
- - `InvoiceNo`: Invoice number
- - `StockCode`: Product code
- - `Description`: Product name
- - `Quantity`: Quantity purchased
- - `InvoiceDate`: Date and time of purchase
- - `UnitPrice`: Price per unit
- - `CustomerID`: Unique customer identifier
- - `Country`: Customer's country
+  - `InvoiceNo`: Invoice number
+  - `StockCode`: Product code
+  - `Description`: Product name
+  - `Quantity`: Quantity purchased
+  - `InvoiceDate`: Date and time of purchase
+  - `UnitPrice`: Price per unit
+  - `CustomerID`: Unique customer identifier
+  - `Country`: Customer's country
 
 ## Getting Started
 
@@ -55,7 +55,7 @@ This project demonstrates a complete data science workflow using real-world e-co
  Or create a virtual environment:
  ```bash
  python -m venv venv
- source venv/bin/activate # On Windows: venv\Scripts\activate
+ source venv/bin/activate  # On Windows: venv\Scripts\activate
  pip install pandas numpy matplotlib seaborn scikit-learn statsmodels
  ```
 
