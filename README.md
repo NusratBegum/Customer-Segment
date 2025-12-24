@@ -20,7 +20,7 @@ This project demonstrates a complete data science workflow using real-world e-co
 
 - **Source**: UK-based online retail transactions
 - **Period**: December 2010 - December 2011
-- **Records**: ~541,909 transactions
+- **Records**: 541,909 transactions
 - **Features**: 
   - `InvoiceNo`: Invoice number
   - `StockCode`: Product code
@@ -43,7 +43,7 @@ This project demonstrates a complete data science workflow using real-world e-co
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/[your-username]/Customer-Segment.git
+   git clone https://github.com/<your-username>/Customer-Segment.git
    cd Customer-Segment
    ```
 
