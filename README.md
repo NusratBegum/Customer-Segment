@@ -1,22 +1,22 @@
-# 📊 E-Commerce Customer Segmentation & Analytics
+# E-Commerce Customer Segmentation & Analytics
 
 A comprehensive data science project that performs end-to-end analysis on e-commerce transaction data, including customer segmentation, sales forecasting, and predictive modeling.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project demonstrates a complete data science workflow using real-world e-commerce data from a UK-based online retailer. It includes data cleaning, exploratory data analysis (EDA), customer segmentation using RFM analysis and K-Means clustering, time series forecasting, and predictive modeling to identify high-value customers.
 
 ### Key Features
 
-- ✅ **Data Cleaning & Preprocessing**: Handle missing values, outliers, and data quality issues
-- ✅ **Exploratory Data Analysis**: Comprehensive visualization and statistical analysis
-- ✅ **RFM Analysis**: Customer segmentation based on Recency, Frequency, and Monetary value
-- ✅ **K-Means Clustering**: Identify distinct customer segments for targeted marketing
-- ✅ **Time Series Forecasting**: Predict future sales trends using Exponential Smoothing
-- ✅ **Predictive Modeling**: Machine learning models to identify high-value customers
-- ✅ **Business Insights**: Actionable recommendations based on data analysis
+- **Data Cleaning & Preprocessing**: Handle missing values, outliers, and data quality issues
+- **Exploratory Data Analysis**: Comprehensive visualization and statistical analysis
+- **RFM Analysis**: Customer segmentation based on Recency, Frequency, and Monetary value
+- **K-Means Clustering**: Identify distinct customer segments for targeted marketing
+- **Time Series Forecasting**: Predict future sales trends using Exponential Smoothing
+- **Predictive Modeling**: Machine learning models to identify high-value customers
+- **Business Insights**: Actionable recommendations based on data analysis
 
-## 📁 Dataset
+## Dataset
 
 - **Source**: UK-based online retail transactions
 - **Period**: December 2010 - December 2011
@@ -31,7 +31,7 @@ This project demonstrates a complete data science workflow using real-world e-co
   - `CustomerID`: Unique customer identifier
   - `Country`: Customer's country
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -42,53 +42,53 @@ This project demonstrates a complete data science workflow using real-world e-co
 ### Installation
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/<your-username>/Customer-Segment.git
-   cd Customer-Segment
-   ```
+ ```bash
+ git clone https://github.com/<your-username>/Customer-Segment.git
+ cd Customer-Segment
+ ```
 
 2. **Install required packages**
-   ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn statsmodels
-   ```
+ ```bash
+ pip install pandas numpy matplotlib seaborn scikit-learn statsmodels
+ ```
 
-   Or create a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   pip install pandas numpy matplotlib seaborn scikit-learn statsmodels
-   ```
+ Or create a virtual environment:
+ ```bash
+ python -m venv venv
+ source venv/bin/activate  # On Windows: venv\Scripts\activate
+ pip install pandas numpy matplotlib seaborn scikit-learn statsmodels
+ ```
 
 3. **Launch Jupyter Notebook**
-   ```bash
-   jupyter notebook customer_seg.ipynb
-   ```
+ ```bash
+ jupyter notebook customer_seg.ipynb
+ ```
 
 ### Required Libraries
 
 ```python
-pandas          # Data manipulation
-numpy           # Numerical computing
-matplotlib      # Data visualization
-seaborn         # Statistical visualization
-scikit-learn    # Machine learning
-statsmodels     # Time series analysis
+pandas # Data manipulation
+numpy # Numerical computing
+matplotlib # Data visualization
+seaborn # Statistical visualization
+scikit-learn # Machine learning
+statsmodels # Time series analysis
 ```
 
-## 📊 Project Structure
+## Project Structure
 
 ```
 Customer-Segment/
 │
-├── customer_seg.ipynb              # Main analysis notebook
-├── data.csv                        # Raw transaction data
-├── cleaned_ecommerce_data.csv     # Cleaned dataset (generated)
-├── customer_rfm_segments.csv      # RFM segmentation results (generated)
-├── customer_features.csv          # Customer feature matrix (generated)
-└── README.md                       # Project documentation
+├── customer_seg.ipynb # Main analysis notebook
+├── data.csv # Raw transaction data
+├── cleaned_ecommerce_data.csv # Cleaned dataset (generated)
+├── customer_rfm_segments.csv # RFM segmentation results (generated)
+├── customer_features.csv # Customer feature matrix (generated)
+└── README.md # Project documentation
 ```
 
-## 🔍 Analysis Sections
+## Analysis Sections
 
 ### 1. Data Ingestion & Cleaning
 - Load and inspect the dataset
@@ -107,10 +107,10 @@ Customer-Segment/
 - Calculate Recency, Frequency, and Monetary scores
 - Assign RFM scores and segments
 - Identify customer types:
-  - 🏆 **VIP Champions**: High value, frequent buyers
-  - 🌟 **Loyal Customers**: Regular purchasers
-  - ⚠️ **At-Risk**: Previously active, now declining
-  - 😴 **Hibernating**: Inactive customers
+ - **VIP Champions**: High value, frequent buyers
+ - **Loyal Customers**: Regular purchasers
+ - **At-Risk**: Previously active, now declining
+ - **Hibernating**: Inactive customers
 
 ### 4. K-Means Clustering
 - Standardize features
@@ -127,9 +127,9 @@ Customer-Segment/
 ### 6. Predictive Modeling
 - Build customer feature matrix
 - Train multiple models:
-  - Logistic Regression
-  - Random Forest Classifier
-  - Gradient Boosting Classifier
+ - Logistic Regression
+ - Random Forest Classifier
+ - Gradient Boosting Classifier
 - Evaluate model performance (accuracy, precision, recall, ROC AUC)
 - Feature importance analysis
 
@@ -138,7 +138,7 @@ Customer-Segment/
 - Visual summary of findings
 - Strategic recommendations
 
-## 📈 Key Findings
+## Key Findings
 
 ### Customer Base
 - UK customers dominate revenue (~82% of total sales)
@@ -159,24 +159,24 @@ Customer-Segment/
 - Random Forest achieves the best predictive performance
 - Key predictors: Order frequency, recency, and product variety
 
-## 💡 Business Recommendations
+## Business Recommendations
 
 ### Retention Strategy
-- ✅ Implement VIP loyalty program for Champions segment
-- ✅ Launch win-back campaigns for At-Risk customers
-- ✅ Personalize offers based on purchase history
+- Implement VIP loyalty program for Champions segment
+- Launch win-back campaigns for At-Risk customers
+- Personalize offers based on purchase history
 
 ### Growth Strategy
-- ✅ Expand marketing in high-potential EU markets
-- ✅ Optimize website for peak shopping hours (10 AM - 3 PM)
-- ✅ Increase promotional campaigns on Thursdays
+- Expand marketing in high-potential EU markets
+- Optimize website for peak shopping hours (10 AM - 3 PM)
+- Increase promotional campaigns on Thursdays
 
 ### Operational Improvements
-- ✅ Focus inventory on top 10 revenue-generating products
-- ✅ Implement predictive models for high-value customer targeting
-- ✅ Use sales forecasts for inventory and staffing planning
+- Focus inventory on top 10 revenue-generating products
+- Implement predictive models for high-value customer targeting
+- Use sales forecasts for inventory and staffing planning
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python 3.x**: Primary programming language
 - **Pandas & NumPy**: Data manipulation and numerical computing
@@ -185,25 +185,25 @@ Customer-Segment/
 - **Statsmodels**: Time series analysis and forecasting
 - **Jupyter Notebook**: Interactive development environment
 
-## 📝 Usage
+## Usage
 
 1. Open `customer_seg.ipynb` in Jupyter Notebook
 2. Run cells sequentially from top to bottom
 3. Review visualizations and insights
 4. Exported files will be saved in the project directory:
-   - `cleaned_ecommerce_data.csv`: Cleaned dataset
-   - `customer_rfm_segments.csv`: Customer segments
-   - `customer_features.csv`: Feature matrix for modeling
+ - `cleaned_ecommerce_data.csv`: Cleaned dataset
+ - `customer_rfm_segments.csv`: Customer segments
+ - `customer_features.csv`: Feature matrix for modeling
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+## License
 
 This project is open source. Please check with the repository owner for specific licensing terms.
 
-## 📧 Contact
+## Contact
 
 For questions or feedback, please reach out to the repository owner.
 
